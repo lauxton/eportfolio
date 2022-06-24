@@ -47,12 +47,6 @@ table {
 	border-spacing: 0;
 }
 
-/*==================================
-Resize
-==================================*/
-.maincontain {
-	margin: auto;
-}
 /*
 ===================================
 Grid
@@ -65,9 +59,19 @@ Grid
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1845;
+	min-width: 1000;
+	max-height: 1000;
+	min-height: 500;
+	padding-right: 0px;
+	padding-left: 0px;
+}
 .maincontain{
 	margin: 0 auto;
-	width: 100%
+	overflow: hidden;
 }
 body {
 	color: #000000;
@@ -75,6 +79,22 @@ body {
 	font: 300 16px/22px "lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/*
+  ========================================
+  Links
+  ========================================
+*/
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffffff;
+	background-color: #000000
+}
+p a {
+	border-bottom: 1px solid #ffffff;
+}
 /*
   ========================================
   Typography
@@ -90,11 +110,12 @@ h1 {
 	line-height: 44px;
 }
 h2 {
-	font-size: 24px;
-	line-height: 44px;
+	font-size: 2vmax;
+	font-weight: 400;
 }
 h3 {
-	font-size: 21px;
+	font-size: 1.4vmax;
+	font-weight: 400;
 }
 h4 {
 	font-size: 18px;
@@ -119,7 +140,14 @@ a:hover {
   color: #000000;
   background-color: #ffffff;
   }
-
+  
+ /*=================================
+ Images
+ =================================*/
+.border {
+  border: 7px solid #000000;
+}
+  
 /*
 ===================================
 Header Bar
@@ -131,6 +159,7 @@ Header Bar
 	color: #ffffff;
 	width: 100%;
 	height: 11%;
+	font-size: .9vmax;
 }
 	
 .mainhead {
@@ -138,9 +167,9 @@ Header Bar
 	color: #000000;
 	background-color: #ffffff;
 	font: 400 370% "Courier New", "Times New Roman";
-	border: 1px solid #ffffff;
+	border: 1px solid #000000;
 	border-radius: 5px;
-	margin-top: .8%;
+	margin-top: .78%;
 	margin-bottom: .6%;
 	margin-left: 2.5%;
 	margin-right: 10%;
@@ -151,6 +180,7 @@ Header Bar
 .topnav {
   overflow: hidden;
   background-color: #000000;
+  font-size: .9vmax;
 }
 
 /* Style the links inside the navigation bar */
@@ -192,6 +222,7 @@ Aside
 	width: 80%;
 	text-align: center;
 	margin-left: 9.7%;
+	font-size: .89vmax;
 }
 
 .intro1 {
@@ -223,17 +254,18 @@ Aside
 	padding-bottom: 8%;
 }
 .underintro {
-	margin-top: 7%;
-	margin-left: 6%;
+	margin-top: 4%;
+	margin-left: 0%;
+	font-size: .9vmax;
 }
  /* The sidebar menu */
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 21.7%; /* Set the width of the sidebar */
+  width: 24%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 78.3%;
+  top: 10%; /* Stay at the top */
+  left: 0%;
   background-color: #000000; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 2.3%;
@@ -259,7 +291,7 @@ Aside
 
 /* Style page content */
 .main {
-  margin-left: 21.7%; /* Same as the width of the sidebar */
+  margin-left: 24%; /* Same as the width of the sidebar */
   padding: 0px 2%;
 }
 
@@ -268,11 +300,81 @@ Aside
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 } 
+
+footer {
+	float: right;
+	margin-top: 28%;
+	margin-bottom: 1%;
+	margin-left: 1%;
+	margin-right:5%;
+	color: #000000;
+}
+
+/*=========================================
+Home page
+=========================================*/
+.fixed {
+	position: resolute;
+	margin-left: 4.8%;
+	margin-top: 9.9%;
+}
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  display: inline-block;
+  max-width: 25vmax;
+ padding: 3%
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  overflow: hidden;
+} 
+
+/* == Text overlap == */
+
+	 /* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  width: 10vmax;
+  text-align: center;
+   bottom: 40%;
+  right: 20%;
+  background-color: #ffffff;
+  border: 6px solid #000000;
+  color: #000000;
+  padding-top: 3%;
+} 
+.text-block a {
+	position: absolute;
+	color: #000000
+	background-color: #ffffff;
+	border: 6px solid #000000;
+	text-decoration: none;
+}
+.text-block a:hover{
+	position: absolute;
+	color: #ffffff;
+	background-color: #000000;
+	border: 6px solid #ffffff;
+}
 /*=========================================
 About Me 
 =========================================*/
-.abtmeimg {
+.abtmemain {
+	position: fixed;
 	margin: 10%;
-	height: 25%;
-	border-radius: 50px;
+}
+
+}
+.abthead {
+	margin: 10%
+
 }
