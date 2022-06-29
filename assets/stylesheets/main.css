@@ -60,14 +60,14 @@ Grid
 
 body {
 	position: fixed;
-	width: 960px; 
+	width: 100%; 
 	text-align: center;
 	color: #000000;
 	font-family: 'Lato', sans-serif;
 	font: 300 16px/22px "lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #wrapper {
-	width: 960px; 
+	width: 100%; 
 	margin: 0 auto; 
 	text-align: center;
 }
