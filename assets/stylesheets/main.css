@@ -68,7 +68,6 @@ body {
 }
 #wrapper {
 	width: 960px; 
-	height: auto;
 	margin: 0 auto; 
 	text-align: center;
 }
@@ -79,23 +78,46 @@ body {
 Header
 ====================================*/
 header {
-	width: 1649;
+	width: 100%;
 	position: fixed;
 	display: block;
 	color: #ffffff;
 	background-color: #000000;
-	height: 80px;
+}
+.logo a {
+	float: left;
+	color: #000000;
+	background-color: #ffffff;
+	font: 400 60px "Courier New", "Times New Roman";
+	text-decoration: none;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	margin-top: 7.5px;
+	margin-bottom: 11.2px;
+	margin-left: 35px;
+	margin-right: 26px;
+}	
+
+.logo a:hover {
+	background-color: #000000;
+	color: #ffffff;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+.logo a:active {
+		background-color: #000000;
+	color: #ffffff;
 }
 
 .topnav {
   overflow: hidden;
   background-color: #000000;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
+  float: left;
   display: block;
   color: #ffffff;
   text-align: center;
@@ -103,9 +125,8 @@ header {
  padding-bottom: 1%;
  padding-left: 2.7%;
   padding-right: 4%;
-  margin-right: 0%;
   text-decoration: none;
-  font-size: 172%;
+  font-size: 25px;
 }
 
 /* Change the color of links on hover */
@@ -126,17 +147,20 @@ header {
 */
 
 /* == Sidenav ==*/
-
+aside {
+	position: fixed;
+}
 .sidenav {
-  height: 830; /* Full-height: remove this if you want "auto" height */
-  width: 355; /* Set the width of the sidebar */
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 19.35%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0%; /* Stay at the top */
-  left: 0%;
+  left: 80.8%;
   background-color: #000000; /* Black */
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 1.3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 /* The navigation menu links */
 .sidenav a {
@@ -166,47 +190,24 @@ header {
  
 /* == Elements ==*/
 
-.logo a {
-	float: left;
-	color: #000000;
-	background-color: #ffffff;
-	font: 400 48px "Courier New", "Times New Roman";
-	text-decoration: none;
-	border: 1px solid #000000;
-	border-radius: 5px;
-	margin-top: 11.2px;
-	margin-bottom: 11.2px;
-	margin-left: 30px;
-	margin-right: 0px;
-}	
-
-.logo a:hover {
-	background-color: #000000;
-	color: #ffffff;
-	border: 1px solid #000000;
-	border-radius: 5px;
-}
-.logo a:active {
-		background-color: #000000;
-	color: #ffffff;
-}
-
 .creds {
 	border: 1px solid #000000;
 	border-radius: 5px;
 	background-color: #ffffff;
 	color: #000000;
-	width: 291px;
+	width: 85%;
+	max-width: 85%;
 	text-align: center;
-	margin-left: 8%;
-	margin-top: 29%;
+	margin-left: 7.5%;
+	margin-top: 4%;
+	margin-bottom: 2%;
 }
 #cred1 {
 	margin: 26 10 10 10;
 	text-align: center;
 	color: #000000;
-	font: 300 28px "Courier New";
-	padding-top: 0%;
+	font: 300 32px "Courier New";
+	padding-top: 7%;
 	padding-bottom: 5.1%;
 }
 #cred2 {
@@ -232,12 +233,72 @@ header {
 
 .undercreds a {
 	text-align: center;
-	padding-top; 0px;
-	padding-right: 30px;
-	margin-top: 9%;
+	padding-top: 3px;
+	padding-right: 18px;
+	margin-top: 11%;
 	margin-right: 0;
-	font-size: 24px;
-	
+	font-size: 26px;
+}
+
+/*=========================================
+Home page
+=========================================*/
+
+.fixed {
+	width: 100%;
+	position: fixed;
+	text-align: left;
+	margin-left: 4%;
+	margin-top: 18%;
+}
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  display: inline-block;
+  max-width: 100%;
+ margin-left: 5%
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  overflow: hidden;
+} 
+
+/* == Text overlap == */
+
+	 /* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  width: 185px;
+  text-align: center;
+   bottom: 40%;
+  right: 20%;
+  background-color: #ffffff;
+  border: 6px solid #000000;
+  font-size: 21px;
+  color: #000000;
+  padding-top: 3%;
+  padding-bottom: 3%;
+} 
+.text-block a {
+	position: absolute;
+	color: #000000
+	background-color: #ffffff;
+	border: 6px solid #000000;
+	text-decoration: none;
+}
+.text-block a:hover{
+	position: absolute;
+	color: #ffffff;
+	background-color: #000000;
+	border: 6px solid #ffffff;
 }
 /*========================================
 Containing floats
@@ -268,4 +329,16 @@ a:hover {
 }
 p a {
 	border-bottom: 1px solid #ffffff;
+}
+
+ /*=================================
+ Images
+ =================================*/
+.border {
+  border: 7px solid #000000;
+}
+  
+  .responsive {
+  max-width: 100%;
+  height: auto;
 }
