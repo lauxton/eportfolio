@@ -78,11 +78,12 @@ body {
 Header
 ====================================*/
 header {
-	width: 100%;
+	width: 82%;
 	position: fixed;
 	display: block;
 	color: #ffffff;
 	background-color: #000000;
+	z-index: 1;
 }
 .logo a {
 	float: left;
@@ -96,6 +97,7 @@ header {
 	margin-bottom: 11.2px;
 	margin-left: 35px;
 	margin-right: 26px;
+	z-index; 1;
 }	
 
 .logo a:hover {
@@ -113,6 +115,7 @@ header {
   overflow: hidden;
   background-color: #000000;
   font-size: 16px;
+  z-index; 1;
 }
 
 /* Style the links inside the navigation bar */
@@ -154,7 +157,7 @@ aside {
   height: 100%; /* Full-height: remove this if you want "auto" height */
   width: 19.35%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
+  z-index: 2; /* Stay on top */
   top: 0%; /* Stay at the top */
   left: 80.8%;
   background-color: #000000; /* Black */
@@ -254,7 +257,7 @@ Home page
  /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   display: inline-block;
-  max-width: 100%;
+  max-width: 25vmax;
  margin-left: 5%
 }
 
@@ -276,7 +279,7 @@ Home page
 /* Bottom right text */
 .text-block {
   position: absolute;
-  width: 185px;
+  width: 60%;
   text-align: center;
    bottom: 40%;
   right: 20%;
@@ -289,7 +292,7 @@ Home page
 } 
 .text-block a {
 	position: absolute;
-	color: #000000
+	color: #000000;
 	background-color: #ffffff;
 	border: 6px solid #000000;
 	text-decoration: none;
@@ -342,3 +345,48 @@ p a {
   max-width: 100%;
   height: auto;
 }
+
+/*=================================
+About Me  
+=================================*/
+.clear {
+        clear: both;
+		z-index: 0;
+      }
+      .clear div {
+        display: inline-block;
+		z-index: 0;
+      }
+      .col1 {
+		margin-top: 10%;
+		margin-left: 5%;
+		padding-right: 3%;
+		width: 20%;
+        background-color: #ffffff;
+        float: left;
+		z-index: 0;
+      }
+      .col2 {
+		margin-top: 10%;
+		margin-right: 24.5%;
+		margin-left: 2%;
+		padding: 2%;
+		width: 48.5%;
+        background-color: #000000;
+		color: #ffffff;
+		line-height: 30px;
+		text-align: left;
+		font-size: 30px;
+		z-index: 0;
+      }
+	  #h2 {
+		  width: 24.5%;
+		  text-align: left;
+		  padding: 2%;
+		  background-color: #ffffff;
+		  color: #000000;
+		  font-size: 38px;
+		  font-weight: 400;
+		  border-radius: 5px;
+		  z-index: 0;
+	  }
