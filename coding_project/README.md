@@ -77,9 +77,11 @@ This stored information is then used to cross-check the username and password up
 ### 3. Execution
 
 Execution of the program results in the following:
+
 ![Program Snapshot](program_snapshot.png)
 
 The program also provides instructions for input that does not meet the username or password criteria for registration and/or login:
+
 ![Criteria Snapshot](criteria_snapshot.png)
 
 ### 4. References
