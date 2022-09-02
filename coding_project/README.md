@@ -1,13 +1,5 @@
 ### Username and Password Registration and Login with Two Factor Authentication
 
-### Table of Contents
-
-1. Program Purpose
-2. Code Construction
-3. Execution
-4. Optional Test Code
-5. References
-
 ### 1. Purpose
 
 This program is meant to provide two functions:
