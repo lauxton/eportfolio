@@ -1,4 +1,3 @@
-
 ### Username and Password Registration and Login with Two Factor Authentication
 
 ### Purpose
@@ -6,7 +5,7 @@
 This test code is meant to provide two functions:
 
 1. register a username and password within a certain criteria 
-    - the criteria is meant to prevent the following attacks
+    - the criteria is meant to prevent the following attacks:
         - cross-site scripting
         - SQL injection
         - cross-site relay
@@ -32,37 +31,52 @@ This test code is meant to provide two functions:
 
 ### Installation
 
-To install the test code, the code repository must be downloaded to a main repository on an OS. For example:
+To install the test code, the code repository must be downloaded to a parent repository on an OS. For example:
 
-[Picture of main repo for code repo]
+![Repo Snapshot](readme_images/repo_snapshot.png)
 
-Because the test code does not have a GUI, it should be executed in a terminal, and can be done with the following steps:
+Because the test code does not have a GUI, it should be executed in a terminal, and can be done in the following steps:
+
 1. Open the terminal program linked to the OS
 2. Navigate to the code repository wherein the 'main.py' file is located
 3. In the terminal, type the following:
-
+    
     **Linux**
-    ```
-    python3 main.py
-    ```
+    
+    `python3 main.py`
     
     **Powershell**
+    
     ```
     python3
     >>> main.py
     ```
     
     **MacOS**
-    ```
-    python3 main.py
-    ```
+    
+    `python3 main.py`
+
 4. Press the 'enter' key
+
+Note: `bcrypt` and `pyotp` libraries should also be downloaded before use.
+
+**bcrypt**
+
+https://pypi.org/project/bcrypt/
+
+`!pip install bcrypt`
+
+**pyotp**
+
+https://github.com/pyauth/pyotp
+
+`!pip install pyotp`
 
 ### Code Construction
 
 #### Object Oriented Programming
 
-The code has been written with an object-oriented approach, as this approach "is defined by describing a collection of interacting objects via their data and behavior (Phillips , 2018: 7) and thus allows for the easy manipulation of objects through functions.
+The code has been written with an object-oriented approach, as this approach "is defined by describing a collection of interacting objects via their data and behavior (Phillips, 2018: 7) and thus allows for the easy manipulation of objects through functions.
 
 The following classes are used to create a username and password:
 
@@ -102,10 +116,12 @@ Information stored in the user dictionary is used to cross-check the username an
 ### Execution
 
 Execution of the program results in the following:
-![Program Snapshot](program_snapshot.png)
+
+![Program Snapshot](readme_images/program_snapshot.png)
 
 The program also provides instructions for input that does not meet the username or password criteria for registration and/or login:
-![Criteria Snapshot](criteria_snapshot.png)
+
+![Criteria Snapshot](readme_images/criteria_snapshot.png)
 
 ### Testcode Data
 
