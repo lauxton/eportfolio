@@ -66,13 +66,17 @@ Because the test code does not have a GUI, it should be executed in a terminal, 
 
 https://pypi.org/project/bcrypt/
 
-`!pip install bcrypt`
+```
+!pip install bcrypt
+```
 
 **pyotp**
 
 https://github.com/pyauth/pyotp
 
-`!pip install pyotp`
+```
+!pip install pyotp
+```
 
 ### Code Construction
 
