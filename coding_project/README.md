@@ -41,7 +41,9 @@ Because the test code does not have a GUI, it should be executed in a terminal, 
     
     **Linux**
     
-    `python3 main.py`
+    ```
+    python3 main.py
+    ```
     
     **Powershell**
     
@@ -52,7 +54,9 @@ Because the test code does not have a GUI, it should be executed in a terminal, 
     
     **MacOS**
     
-    `python3 main.py`
+    ```
+    python3 main.py
+    ```
 
 4. Press the 'enter' key
 
