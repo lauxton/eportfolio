@@ -4,19 +4,17 @@
 
 This test code is meant to provide two functions:
 
-1. register a username and password within a certain criteria 
-    - the criteria is meant to prevent the following attacks:
+1. Register a username and password within a certain criteria 
+    - The criteria is meant to prevent the following attacks:
         - cross-site scripting
         - SQL injection
-        - cross-site relay
-        - man-in-the-middle
 
-    - username criteria:
+    - Username criteria:
         - length between 5 and 16 characters
         - no spaces between characters
         - no special symbols
 
-    - password criteria:
+    - Password criteria:
         - length between 8 and 16 characters
         - at least one uppercase character included
         - at least one digit included
@@ -24,10 +22,10 @@ This test code is meant to provide two functions:
         - at least one of the following special symbols included: ! @ # $ % &
         - produce a salted hash of the accepted password
 
-2. provide a secure user login
-    - the username must match with a case-specific cross-check
-    - the password must match the salted hash archived
-    - user must provide an OTP through Two Factor Authorization
+2. Provide a secure user login
+    - Username must match with a case-specific cross-check
+    - Password must match the salted hash archived
+    - User must provide an OTP through Two Factor Authorization
 
 ### Installation
 
@@ -35,7 +33,7 @@ To install the test code, the code repository must be downloaded to a parent rep
 
 ![Repo Snapshot](readme_images/repo_snapshot.png)
 
-Because the test code does not have a GUI, it should be executed in a terminal, and can be done in the following steps:
+Because the test code does not have a GUI, it should be executed in a terminal, and can be done with the following steps:
 
 1. Open the terminal program linked to the OS
 2. Navigate to the code repository wherein the 'main.py' file is located
@@ -95,13 +93,13 @@ These classes and functions can be viewed indepth in login_classes.py
 
 #### Main Program File
 
-The main.py program file has the following important characteristics:
+The main.py program file has the following characteristics:
 
 - Imported classes along with `install pyotp` to implement Two Factor Authorization.
 
  - An empty dictionary `user_1 = {}` which stores the user profile input and provides cross-check information for the subsequent login program.
 
-- while loops for username creation, password creation, username login, and password login
+- While loops for username creation, password creation, username login, and password login
 
 - A value of 1 assigned to successful input
 
