@@ -36,7 +36,7 @@ To install the test code, the code repository must be downloaded to a parent rep
 Because the test code does not have a GUI, it should be executed in a terminal, and can be done with the following steps:
 
 1. Open the terminal program linked to the OS
-2. Navigate to the code repository wherein the 'main.py' file is located
+2. Navigate to the code repository wherein the `main.py` file is located
 3. In the terminal, type the following:
     
     **Linux**
