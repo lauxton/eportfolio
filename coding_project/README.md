@@ -56,7 +56,7 @@ Because the test code does not have a GUI, it should be executed in a terminal, 
 
 4. Press the 'enter' key
 
-Note: `bcrypt` and `pyotp` libraries should also be downloaded before use.
+`bcrypt` and `pyotp` libraries should also be downloaded before use:
 
 **bcrypt**
 
