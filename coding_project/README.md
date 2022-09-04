@@ -66,20 +66,16 @@ The code has been written with an object-oriented approach, as this approach "is
 
 The following classes are used to create a username and password:
 
-    ```
     CreateUsername
     CreatePassword
     EncryptPass
-    ```
 
 These classes and functions can be viewed indepth in create_user_classes.py
 
 The login program uses two separate classes:
 
-    ```
     VerifyUser
     VerifyPass
-    ```
 
 These classes and functions can be viewed indepth in login_classes.py
 
