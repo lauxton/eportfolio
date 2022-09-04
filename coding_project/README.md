@@ -6,7 +6,7 @@
 This test code is meant to provide two functions:
 
 1. register a username and password within a certain criteria 
-    - the criteria is meant to prevent the following attacks[^1]
+    - the criteria is meant to prevent the following attacks
         - cross-site scripting
         - SQL injection
         - cross-site relay
@@ -40,15 +40,22 @@ Because the test code does not have a GUI, it should be executed in a terminal, 
 1. Open the terminal program linked to the OS
 2. Navigate to the code repository wherein the 'main.py' file is located
 3. In the terminal, type the following:
+
     **Linux**
-    `python3 main.py`
+    ```
+    python3 main.py
+    ```
+    
     **Powershell**
     ```
     python3
     >>> main.py
     ```
+    
     **MacOS**
-    ```python3 main.py```
+    ```
+    python3 main.py
+    ```
 4. Press the 'enter' key
 
 ### Code Construction
