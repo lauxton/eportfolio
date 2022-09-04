@@ -41,14 +41,14 @@ Because the test code does not have a GUI, it should be executed in a terminal, 
 2. Navigate to the code repository wherein the 'main.py' file is located
 3. In the terminal, type the following:
     **Linux**
-    '''python3 main.py'''
+    `python3 main.py`
     **Powershell**
-    '''
+    ```
     python3
     >>> main.py
-    '''
+    ```
     **MacOS**
-    '''python3 main.py'''
+    ```python3 main.py```
 4. Press the 'enter' key
 
 ### Code Construction
@@ -59,20 +59,20 @@ The code has been written with an object-oriented approach, as this approach "is
 
 The following classes are used to create a username and password:
 
-    '''
+    ```
     CreateUsername
     CreatePassword
     EncryptPass
-    '''
+    ```
 
 These classes and functions can be viewed indepth in create_user_classes.py
 
 The login program uses two separate classes:
 
-    '''
+    ```
     VerifyUser
     VerifyPass
-    '''
+    ```
 
 These classes and functions can be viewed indepth in login_classes.py
 
@@ -80,17 +80,17 @@ These classes and functions can be viewed indepth in login_classes.py
 
 The main.py program file has the following important characteristics:
 
-- Imported classes along with '''install pyotp''' to implement Two Factor Authorization.
+- Imported classes along with `install pyotp` to implement Two Factor Authorization.
 
- - An empty dictionary '''user_1 = {}''' which stores the user profile input and provides cross-check information for the subsequent login program.
+ - An empty dictionary `user_1 = {}` which stores the user profile input and provides cross-check information for the subsequent login program.
 
 - while loops for username creation, password creation, username login, and password login
 
 - A value of 1 assigned to successful input
 
-- An empty list '''success = []''' which adds  positive integer increment to the variable '''success_count'''
+- An empty list `success = []` which adds  positive integer increment to the variable `success_count`
 
-- A counter '''success_count = 0''', which accepts or rejects input based on the the input value
+- A counter `success_count = 0`, which accepts or rejects input based on the the input value
 
 - A print mechanism for hashed input
 
@@ -99,14 +99,14 @@ Information stored in the user dictionary is used to cross-check the username an
 ### Execution
 
 Execution of the program results in the following:
-![Program Snapshot](coding_project/program_snapshot.png)
+![Program Snapshot](program_snapshot.png)
 
 The program also provides instructions for input that does not meet the username or password criteria for registration and/or login:
-![Criteria Snapshot](coding_project/criteria_snapshot.png)
+![Criteria Snapshot](criteria_snapshot.png)
 
 ### Testcode Data
 
-Testcode performed for the various functions and the main program can be found in the repository '''coding_project/testcode'''.
+Testcode performed for the various functions and the main program can be found in the repository `coding_project/testcode`.
 
 
 ### References
