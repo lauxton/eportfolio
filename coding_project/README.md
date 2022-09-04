@@ -82,18 +82,18 @@ The following classes are used to create a username and password:
     CreatePassword
     EncryptPass
 
-These classes and functions can be viewed indepth in create_user_classes.py
+These classes and functions can be viewed indepth in `create_user_classes.py`
 
 The login program uses two separate classes:
 
     VerifyUser
     VerifyPass
 
-These classes and functions can be viewed indepth in login_classes.py
+These classes and functions can be viewed indepth in `login_classes.py`
 
 #### Main Program File
 
-The main.py program file has the following characteristics:
+The `main.py` program file has the following characteristics:
 
 - Imported classes along with `install pyotp` to implement Two Factor Authorization.
 
