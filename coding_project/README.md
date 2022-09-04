@@ -51,6 +51,7 @@ Because the test code does not have a GUI, it should be executed in a terminal, 
     python3
     >>> main.py
     ```
+    
     **MacOS**
     
     `python3 main.py`
@@ -141,4 +142,9 @@ Python Pool. (2021) [Solved] RecursionError: maximum recursion depth exceeded wh
 
 Rochlin, M. (2012) What's the difference between the print and the return functions? | Codecademy. [online] Codecademy. Available at: https://www.codecademy.com/forum_questions/518ffbfeb3f05c44fe001395 [Accessed 4 September 2022].
 
+Sotiriadis, S. (2022) CS Examples for EMA. [online] Colab Google. Available at: https://colab.research.google.com/drive/1B72_kiRMeEoa98ir4eHPPC7mjMVVOu8x?usp=sharing [ Accessing 4 September 2022].
+
+Stuttard, D. and Pinto, M. (2011) The Web Application Hacker's Handbook. 2nd ed. Hoboken, N.J.: Wiley.
+
 W3schools.com.(n.d.) Python Inheritance. [online] Available at: https://www.w3schools.com/python/python_inheritance.asp [Accessed 4 September 2022].
+
