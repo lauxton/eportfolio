@@ -51,7 +51,6 @@ Because the test code does not have a GUI, it should be executed in a terminal, 
     python3
     >>> main.py
     ```
-    
     **MacOS**
     
     `python3 main.py`
