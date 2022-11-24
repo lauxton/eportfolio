@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -16,35 +17,35 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* ===================================
@@ -53,23 +54,23 @@ Grid
 *,
 *:before,
 *:after {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	position: fixed;
-	width: 100%; 
-	text-align: center;
-	color: #000000;
-	font-family: 'Lato', sans-serif;
-	font: 300 16px/22px "lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: fixed;
+    width: 100%; 
+    text-align: center;
+    color: #000000;
+    font-family: 'Lato', sans-serif;
+    font: 300 16px/22px "lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #wrapper {
-	width: 100%; 
-	margin: 0 auto; 
-	text-align: center;
+    width: 100%; 
+    margin: 0 auto; 
+    text-align: center;
 }
 
 /* == HOME PAGE == */
@@ -78,37 +79,37 @@ body {
 Header
 ====================================*/
 header {
-	width: 82%;
-	position: fixed;
-	display: block;
-	color: #ffffff;
-	background-color: #000000;
-	z-index: 1;
+    width: 82%;
+    position: fixed;
+    display: block;
+    color: #ffffff;
+    background-color: #000000;
+    z-index: 1;
 }
 .logo a {
-	float: left;
-	color: #000000;
-	background-color: #ffffff;
-	font: 400 60px "Courier New", "Times New Roman";
-	text-decoration: none;
-	border: 1px solid #000000;
-	border-radius: 5px;
-	margin-top: 7.5px;
-	margin-bottom: 11.2px;
-	margin-left: 35px;
-	margin-right: 26px;
-	z-index; 1;
-}	
+    float: left;
+    color: #000000;
+    background-color: #ffffff;
+    font: 400 60px "Courier New", "Times New Roman";
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top: 7.5px;
+    margin-bottom: 11.2px;
+    margin-left: 35px;
+    margin-right: 26px;
+    z-index; 1;
+}   
 
 .logo a:hover {
-	background-color: #000000;
-	color: #ffffff;
-	border: 1px solid #000000;
-	border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 .logo a:active {
-		background-color: #000000;
-	color: #ffffff;
+        background-color: #000000;
+    color: #ffffff;
 }
 
 .topnav {
@@ -151,7 +152,7 @@ header {
 
 /* == Sidenav ==*/
 aside {
-	position: fixed;
+    position: fixed;
 }
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
@@ -167,16 +168,16 @@ aside {
 }
 /* The navigation menu links */
 .sidenav a {
-	margin-top: 6%;
-	margin-bottom:  4.5%;
-	margin-left: 3.5%;
-	margin-right: 1%;
-	text-align: center;
-	text-decoration: none;
-	font-size: 180%;
-	color: #ffffff;
-	display: block;
-	border: .4vmax solid #000000
+    margin-top: 6%;
+    margin-bottom:  4.5%;
+    margin-left: 3.5%;
+    margin-right: 1%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 180%;
+    color: #ffffff;
+    display: block;
+    border: .4vmax solid #000000
 }
 .sidenav a:hover {
   color: #000000;
@@ -194,53 +195,53 @@ aside {
 /* == Elements ==*/
 
 .creds {
-	border: 1px solid #000000;
-	border-radius: 5px;
-	background-color: #ffffff;
-	color: #000000;
-	width: 85%;
-	max-width: 85%;
-	text-align: center;
-	margin-left: 7.5%;
-	margin-top: 4%;
-	margin-bottom: 2%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #000000;
+    width: 85%;
+    max-width: 85%;
+    text-align: center;
+    margin-left: 7.5%;
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
 #cred1 {
-	margin: 26 10 10 10;
-	text-align: center;
-	color: #000000;
-	font: 300 32px "Courier New";
-	padding-top: 7%;
-	padding-bottom: 5.1%;
+    margin: 26 10 10 10;
+    text-align: center;
+    color: #000000;
+    font: 300 32px "Courier New";
+    padding-top: 7%;
+    padding-bottom: 5.1%;
 }
 #cred2 {
-	margin-top: 2%;
-	margin-bottom: 2%;
-	margin-left: 2%;
-	margin-right: 2%;
-	text-align: center;
-	color: #000000;
-	font: 300  23px"Courier New";
-	padding-bottom: 6.5%
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    color: #000000;
+    font: 300  23px"Courier New";
+    padding-bottom: 6.5%
 }
 #cred3 {
-	margin-top: 2%;
-	margin-bottom: 2%;
-	margin-left: 2%;
-	margin-right: 2%;
-	text-align: center;
-	color: #000000;
-	font: 300 22px "Courier New";
-	padding-bottom: 8%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+    color: #000000;
+    font: 300 22px "Courier New";
+    padding-bottom: 8%;
 }
 
 .undercreds a {
-	text-align: center;
-	padding-top: 3px;
-	padding-right: 18px;
-	margin-top: 11%;
-	margin-right: 0;
-	font-size: 26px;
+    text-align: center;
+    padding-top: 3px;
+    padding-right: 18px;
+    margin-top: 9%;
+    margin-right: 0;
+    font-size: 26px;
 }
 
 /*=========================================
@@ -248,11 +249,11 @@ Home page
 =========================================*/
 
 .fixed {
-	width: 100%;
-	position: fixed;
-	text-align: left;
-	margin-left: 4%;
-	margin-top: 18%;
+    width: 100%;
+    position: fixed;
+    text-align: left;
+    margin-left: 4.75%;
+    margin-top: 18.9%;
 }
  /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -271,7 +272,7 @@ Home page
 
 /* == Text overlap == */
 
-	 /* Container holding the image and the text */
+     /* Container holding the image and the text */
 .container {
   position: relative;
 }
@@ -291,17 +292,17 @@ Home page
   padding-bottom: 3%;
 } 
 .text-block a {
-	position: absolute;
-	color: #000000;
-	background-color: #ffffff;
-	border: 6px solid #000000;
-	text-decoration: none;
+    position: absolute;
+    color: #000000;
+    background-color: #ffffff;
+    border: 6px solid #000000;
+    text-decoration: none;
 }
 .text-block a:hover{
-	position: absolute;
-	color: #ffffff;
-	background-color: #000000;
-	border: 6px solid #ffffff;
+    position: absolute;
+    color: #ffffff;
+    background-color: #000000;
+    border: 6px solid #ffffff;
 }
 /*========================================
 Containing floats
@@ -323,15 +324,15 @@ Containing floats
   ========================================
 */
 a {
-	color: #000000;
-	text-decoration: none;
+    color: #000000;
+    text-decoration: none;
 }
 a:hover {
-	color: #ffffff;
-	background-color: #000000
+    color: #ffffff;
+    background-color: #000000
 }
 p a {
-	border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
 }
 
  /*=================================
@@ -351,42 +352,55 @@ About Me
 =================================*/
 .clear {
         clear: both;
-		z-index: 0;
+        z-index: 0;
       }
       .clear div {
         display: inline-block;
-		z-index: 0;
+        z-index: 0;
       }
       .col1 {
-		margin-top: 10%;
-		margin-left: 5%;
-		padding-right: 3%;
-		width: 20%;
+        margin-top: 10%;
+        margin-left: 5%;
+        padding-right: 3%;
+        width: 20%;
         background-color: #ffffff;
         float: left;
-		z-index: 0;
+        z-index: 0;
       }
       .col2 {
-		margin-top: 10%;
-		margin-right: 24.5%;
-		margin-left: 2%;
-		padding: 2%;
-		width: 48.5%;
+        margin-top: 10%;
+        margin-right: 24.5%;
+        margin-left: 2%;
+        padding: 2%;
+        width: 48.5%;
         background-color: #000000;
-		color: #ffffff;
-		line-height: 30px;
-		text-align: left;
-		font-size: 30px;
-		z-index: 0;
+        color: #ffffff;
+        line-height: 30px;
+        text-align: left;
+        font-size: 30px;
+        z-index: 0;
       }
-	  #h2 {
-		  width: 24.5%;
-		  text-align: left;
-		  padding: 2%;
-		  background-color: #ffffff;
-		  color: #000000;
-		  font-size: 38px;
-		  font-weight: 400;
-		  border-radius: 5px;
-		  z-index: 0;
-	  }
+      #h2 {
+          width: 24.5%;
+          text-align: left;
+          padding: 2%;
+          background-color: #ffffff;
+          color: #000000;
+          font-size: 38px;
+          font-weight: 400;
+          border-radius: 5px;
+          z-index: 0;
+      }
+
+/*=================================
+Coming Soon
+=================================*/
+.comingsoon {
+       margin-top: 64%;
+        margin-left: 64%;
+        padding-right: 0%;
+        width: 100%;
+        float: left;
+        z-index: 0;
+      }
+}
