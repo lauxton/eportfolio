@@ -474,7 +474,7 @@ LCYS
 
 .summativeAssessmentsLCYS {
     width: 100%;
-    margin-top: 50%;
+    margin-top: 36%;
     margin-left: 10%;
 }
 
@@ -505,7 +505,7 @@ Assignment 2
 
 .pythonCodeA2 {
     width: 82%;
-    margin-top: 52.8%;
+    margin-top: 37.8%;
     margin-left: 12%;
 }
 
@@ -519,58 +519,6 @@ Assignment 2
     width: 82%;
     margin-top: -39.7%;
     margin-left: 244%;
-}
-
-/*=================================
-Readme.md
-=================================*/
-
-.moduleTitleA2LCYS {
-    color: #ffffff;
-    background-color: #000000;
-    font-size: 26px;
-    font-weight: 400;
-    margin-top: 3.7%;
-    margin-right: 28.1%;
-}
-
-.readMeBackButton {
-    color: #000000;
-    background-color: #ffffff;
-    margin-top:70%;
-    margin-left: 12%;
-}
-
-.readMeA2 {
-    width: 82%;
-    margin-top: 52.8%;
-    margin-left: 12%;
-}
-
-.readMeA2Images {
-    width: 100%;
-    margin-top: -49%;
-    margin-left: 119%;
-}
-
-
-/*=================================
-Test Code
-=================================*/
-
-.moduleTitleA2rmLCYS {
-    colour: #ffffff;
-    background-color: #000000;
-    font-size: 26px;
-    font-weight: 400;
-    margin-top: 3.7%;
-    margin-right: 18%;
-}
-
-.testCodeA2 {
-    width: 82%;
-    margin-top: 52.8%;
-    margin-left: 12%;
 }
 
 /*=================================
@@ -588,7 +536,7 @@ SRM
 
 .summativeAssessmentsSRM {
     width: 100%;
-    margin-top: 50%;
+    margin-top: 36%;
     margin-left: 10%;
 }
 
@@ -610,19 +558,19 @@ Assignement 1
 
 .finalDraftA1 {
     width: 100%;
-    margin-top: 55%;
+    margin-top: 40%;
     margin-left: 13%;
 }
 
 .groupWorkA1 {
     width: 82%;
-    margin-top: -35.9%;
+    margin-top: -51.1%;
     margin-left: 136%;
 }
 
 .individualWorkA1 {
     width:100%;
-    margin-top: -50.3%;
+    margin-top: -50.5%;
     margin-left: 241%;
 }
 
@@ -641,19 +589,19 @@ Assignement 2
 
 .finalDraftA2 {
     width: 100%;
-    margin-top: 55%;
+    margin-top: 40%;
     margin-left: 13%;
 }
 
 .groupWorkA2 {
     width: 82%;
-    margin-top: -46.4%;
+    margin-top: -51.2%;
     margin-left: 136%;
 }
 
 .individualWorkA2 {
     width:100%;
-    margin-top: -50.3%;
+    margin-top: -36.8%;
     margin-left: 241%;
 }
 
@@ -672,7 +620,7 @@ Dissertation
 
 .dissertationFinal {
     width: 100%;
-    margin-top: 35%;
+    margin-top: 36%;
     margin-left: 13%;
 }
 
