@@ -615,6 +615,62 @@ Assignement 2
 }
 
 /*=================================
+NS
+=================================*/
+
+.moduleTitleNS {
+    colour: #ffffff;
+    background-color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 3.7%;
+    margin-right: 49.15%;
+}
+
+.summativeAssessmentsNS {
+    width: 100%;
+    margin-top: 36%;
+    margin-left: 10%;
+}
+
+.formativeAssessmentsNS {
+    width: 100%;
+    margin-top: -38.6%;
+    margin-left: 120.5%;
+}
+
+.reflectionNS {
+    width:82%;
+    margin-top: -127.3%;
+    margin-left: 231%;
+}
+
+/*=================================
+Assignement 1
+=================================*/
+
+.finalDraftA1NS {
+    width: 100%;
+    margin-top: 40%;
+    margin-left: 13%;
+}
+
+.auxWorkA1 {
+    width:100%;
+    margin-top: -50.5%;
+    margin-left: 241%;
+}
+
+.moduleTitleA1NS {
+    colour: #ffffff;
+    background-color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 3.7%;
+    margin-right: 30.95%;
+}
+
+/*=================================
 Dissertation
 =================================*/
 
