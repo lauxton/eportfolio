@@ -646,28 +646,34 @@ NS
 }
 
 /*=================================
-Assignement 1
+SSD
 =================================*/
 
-.finalDraftA1NS {
-    width: 100%;
-    margin-top: 40%;
-    margin-left: 13%;
-}
-
-.auxWorkA1 {
-    width:100%;
-    margin-top: -50.5%;
-    margin-left: 241%;
-}
-
-.moduleTitleA1NS {
+.moduleTitleSSD {
     colour: #ffffff;
     background-color: #000000;
     font-size: 26px;
     font-weight: 400;
     margin-top: 3.7%;
-    margin-right: 30.95%;
+    margin-right: 39.2%;
+}
+
+.summativeAssessmentsSSD {
+    width: 100%;
+    margin-top: 36%;
+    margin-left: 10%;
+}
+
+.formativeAssessmentsSSD {
+    width: 100%;
+    margin-top: -38.6%;
+    margin-left: 120.5%;
+}
+
+.reflectionSSD {
+    width:82%;
+    margin-top: -156.8%;
+    margin-left: 231%;
 }
 
 /*=================================
