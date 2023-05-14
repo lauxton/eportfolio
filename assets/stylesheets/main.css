@@ -739,6 +739,36 @@ Assignement 2
 }
 
 /*=================================
+THF
+=================================*/
+
+.moduleTitleTHF {
+    colour: #ffffff;
+    background-color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 3.7%;
+    margin-right: 48.1%;
+}
+
+.summativeAssessmentsTHF {
+    width: 100%;
+    margin-top: 36%;
+    margin-left: 10%;
+}
+
+.formativeAssessmentsTHF {
+    width: 100%;
+    margin-top: -53.5%;
+    margin-left: 120.5%;
+}
+
+.reflectionTHF {
+    width:82%;
+    margin-top: -127.3%;
+    margin-left: 231%;
+}
+/*=================================
 Dissertation
 =================================*/
 
