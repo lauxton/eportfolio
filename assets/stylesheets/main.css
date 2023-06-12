@@ -768,6 +768,32 @@ THF
     margin-top: -82.8%;
     margin-left: 231%;
 }
+
+/*=================================
+THF Assignment 3
+=================================*/
+
+.moduleTitleA3THF {
+    colour: #ffffff;
+    background-color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 3.7%;
+    margin-right: 37%;
+}
+
+.presentationVideo {
+    width: 120%;
+    margin-top: 27%;
+    margin-left: 13%;
+}
+
+.supportingMaterial {
+    width: 70%;
+    margin-top: -82.4%;
+    margin-left: 151.2%;
+}
+
 /*=================================
 Dissertation
 =================================*/
