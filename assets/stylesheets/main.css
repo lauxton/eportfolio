@@ -832,6 +832,56 @@ RMPP_
 }
 
 /*=================================
+RMPP - Community Learning Devel.
+=================================*/
+
+.moduleTitleRMPPCLD {
+    colour: #ffffff;
+    background-color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 3.7%;
+    margin-right: 24.05%;
+}
+
+.rMPPCLD1 {
+    width: 100%;
+    margin-top: 43%;
+    margin-left: 23%;
+}
+
+.rMPPCLD2 {
+    width: 100%;
+    margin-top: -65.5%;
+    margin-left: 170%;
+}
+
+/*=================================
+RMPP Assignment 2
+=================================*/
+
+.moduleTitleA2RMPP {
+    colour: #ffffff;
+    background-color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 3.7%;
+    margin-right: 25.5%;
+}
+
+.presentationVideo {
+    width: 120%;
+    margin-top: 27%;
+    margin-left: 13%;
+}
+
+.supportingMaterial {
+    width: 70%;
+    margin-top: -74.35%;
+    margin-left: 151.2%;
+}
+
+/*=================================
 Dissertation
 =================================*/
 
