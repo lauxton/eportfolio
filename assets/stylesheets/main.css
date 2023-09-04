@@ -866,7 +866,7 @@ RMPP Assignment 2
     font-size: 26px;
     font-weight: 400;
     margin-top: 3.7%;
-    margin-right: 25.5%;
+    margin-right: 25.3%;
 }
 
 .presentationVideo {
@@ -888,19 +888,19 @@ Dissertation
 .dissertationFinal {
     width: 100%;
     margin-top: 36%;
-    margin-left: 13%;
+    margin-left: 14%;
 }
 
 .dissertationArtefacts {
-    width: 70%;
-    margin-top: -19.2%;
-    margin-left: 126%;
+    width: 100%;
+    margin-top: -20%;
+    margin-left: 127%;
 }
 
 .dissertationReading {
     width:100%;
-    margin-top: -16%;
-    margin-left: 210%;
+    margin-top: -20%;
+    margin-left: 241%;
 }
 
 .moduleTitleDissertation {
