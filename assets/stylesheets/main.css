@@ -913,6 +913,68 @@ SSA
 }
 
 /*=================================
+PDFCYL
+=================================*/
+
+.moduleTitlePDFCYL {
+    colour: #ffffff;
+    background-color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 3.7%;
+    margin-right: 28.73%;
+}
+
+.summativeAssessmentsPDFCYL {
+    width: 100%;
+    margin-top: 36%;
+    margin-left: 10%;
+}
+
+.formativeAssessmentsPDFCYL {
+    width: 100%;
+    margin-top: -53.5%;
+    margin-left: 120.5%;
+}
+
+.reflectionPDFCYL {
+    width:82%;
+    margin-top: -127.3%;
+    margin-left: 231%;
+}
+
+/*=================================
+PDFCYL Assignment 1
+=================================*/
+
+.moduleTitlePDFCYLA1 {
+    colour: #ffffff;
+    background-color: #000000;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 3.7%;
+    margin-right: 40.4%;
+}
+
+.summativeAssessmentsPDFCYLA1 {
+    width: 100%;
+    margin-top: 36%;
+    margin-left: 10%;
+}
+
+.formativeAssessmentsPDFCYLA1 {
+    width: 100%;
+    margin-top: -38.6%;
+    margin-left: 120.5%;
+}
+
+.reflectionPDFCYLA1 {
+    width:82%;
+    margin-top: -127.3%;
+    margin-left: 231%;
+}
+
+/*=================================
 Dissertation
 =================================*/
 
