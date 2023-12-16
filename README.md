@@ -118,7 +118,7 @@
 * Examine the challenges and opportunities of regulating and policing cyberspace.
 * Explain different types of evidence and evidence collection and the underlying principles of verifiability, continuity and presentation.
 * Examine the range of investigations cybersecurity professionals carry out and the challenges of investigation.
-* 
+
 <b>On completion of this module you will be able to:</b>
 * Critically appraise the global legal and regulatory environment as it applies to cyberspace, and compliance requirements, including the GDPR and the obligations it imposes.
 * Critically appraise ethical considerations and the rights that people may or may not have in cyberspace, and understand the debates in this area.
