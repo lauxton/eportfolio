@@ -77,7 +77,7 @@
 * Develop an in-depth understanding of the elements of risk in a socio-technical system.
 * Critically examine effective strategies to promote and manage the human factor in cyber security.
 * Critically evaluate the social and ethical considerations in developing and applying usable security.
-* 
+  
 ### Module 6: Research Methods and Professional Practice
 
 <b>In this module we shall:</b>
