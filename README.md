@@ -5,18 +5,18 @@
 ### Module 1: Launching Into Cyber Security
 
 <b>In this module we shall:</b>
-Look into the professional roles, skillset, ethical responsibilities of Cyber Security professionals.
-Explore the relevant computing architectures, practices, applications and standards.
-Develop an understanding of the core concepts in Cyber Security such as cryptography, penetration testing and ethical hacking.
-Engage with programming concepts necessary for facilitating security-based decisions.
-Develop the ability to implement a secure information system using the principles and concepts of object-oriented approaches to solve a given problem, such as information system design and web development.
-Discuss the ethos of professional development highlighting major ethical-social-corporate responsibilities underpinning the concepts of threats, securities and global impacts prevailing the recent technological innovations and future applications.
+* Look into the professional roles, skillset, ethical responsibilities of Cyber Security professionals.
+* Explore the relevant computing architectures, practices, applications and standards.
+* Develop an understanding of the core concepts in Cyber Security such as cryptography, penetration testing and ethical hacking.
+* Engage with programming concepts necessary for facilitating security-based decisions.
+* Develop the ability to implement a secure information system using the principles and concepts of object-oriented approaches to solve a given problem, such as information system design and web development.
+* Discuss the ethos of professional development highlighting major ethical-social-corporate responsibilities underpinning the concepts of threats, securities and global impacts prevailing the recent technological innovations and future applications.
 
 <b>On completion of this module you will be able to:</b>
-Identify and explain the architecture, structure and functionality of basic components of a computer system, considering Cyber Security issues.
-Evaluate critically implications of the key vulnerabilities and threats of software and network security and approaches to mitigate these issues.
-Appraise critically and apply the concepts and principles of secure object-oriented design to facilitate business security-based decisions.
-Evaluate critically the solutions developed to solve/mitigate these security issues.
+* Identify and explain the architecture, structure and functionality of basic components of a computer system, considering Cyber Security issues.
+* Evaluate critically implications of the key vulnerabilities and threats of software and network security and approaches to mitigate these issues.
+* Appraise critically and apply the concepts and principles of secure object-oriented design to facilitate business security-based decisions.
+* Evaluate critically the solutions developed to solve/mitigate these security issues.
 
 ### Module 2: Security Risk and Management
 
@@ -102,7 +102,7 @@ Evaluate critically the solutions developed to solve/mitigate these security iss
 * An appreciation of current and future challenges, limitations and opportunities.
 * The opportunity to reflect on and evaluate personal development.
 
-<b>On completion of this module, you will be able to:<b>
+<b>On completion of this module, you will be able to:</b>
 * Identify and critically analyse operating system risks and issues, and identify appropriate methodologies, tools and techniques to solve them.
 * Evaluate and adapt platforms and systems, using processes such as code refactoring, to produce secure distributed system solutions.
 * Critically analyse and evaluate solutions produced.
@@ -118,6 +118,7 @@ Evaluate critically the solutions developed to solve/mitigate these security iss
 * Examine the challenges and opportunities of regulating and policing cyberspace.
 * Explain different types of evidence and evidence collection and the underlying principles of verifiability, continuity and presentation.
 * Examine the range of investigations cybersecurity professionals carry out and the challenges of investigation.
+* 
 <b>On completion of this module you will be able to:</b>
 * Critically appraise the global legal and regulatory environment as it applies to cyberspace, and compliance requirements, including the GDPR and the obligations it imposes.
 * Critically appraise ethical considerations and the rights that people may or may not have in cyberspace, and understand the debates in this area.
