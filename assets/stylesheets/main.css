@@ -953,25 +953,19 @@ PDFCYL Assignment 1
     font-size: 26px;
     font-weight: 400;
     margin-top: 3.7%;
-    margin-right: 40.4%;
+    margin-right: 24.5%;
 }
 
-.summativeAssessmentsPDFCYLA1 {
-    width: 100%;
-    margin-top: 36%;
-    margin-left: 10%;
+.presentationVideoPDFCYL {
+    width: 120%;
+    margin-top: 27%;
+    margin-left: 13%;
 }
 
-.formativeAssessmentsPDFCYLA1 {
-    width: 100%;
-    margin-top: -38.6%;
-    margin-left: 120.5%;
-}
-
-.reflectionPDFCYLA1 {
-    width:82%;
-    margin-top: -127.3%;
-    margin-left: 231%;
+.supportingMaterialPDFCYL {
+    width: 70%;
+    margin-top: -74.5%;
+    margin-left: 151.2%;
 }
 
 /*=================================
@@ -979,21 +973,25 @@ Dissertation
 =================================*/
 
 .dissertationFinal {
-    width: 80%;
-    margin-top: 36%;
-    margin-left: 16%;
+    width: 35%;
+    margin-top: 15.45%;
+    margin-left: 6%;
+}
+
+.dissFinalTtitle {
+    line-height: 160%;
 }
 
 .dissertationArtefacts {
-    width: 80%;
-    margin-top: -16.6%;
-    margin-left: 115%;
+    width: 40%;
+    margin-top: -16.9%;
+    margin-left: 47%;
 }
 
-.dissertationReading {
-    width:80%;
-    margin-top: -16.8%;
-    margin-left: 214%;
+.dissertationResources {
+    width:40%;
+    margin-top: -48.2%;
+    margin-left: 93%;
 }
 
 .moduleTitleDissertation {
@@ -1008,6 +1006,5 @@ Dissertation
 div.verticalMenuDiss {
   width: 100%;
   height: 475px;
-  line-height: 180%;
   overflow-y: auto;
 }
